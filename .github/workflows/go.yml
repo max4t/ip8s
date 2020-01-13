@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        go_version: ['1.9', '1.10', '1.11', '1.12', '1.13']
+        go_version: ['1.12', '1.13']
 
     steps:
     - name: Check out code
